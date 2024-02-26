@@ -1,27 +1,16 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2759
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Monaco;}
-{\colortbl;\red255\green255\blue255;\red80\green93\blue147;\red30\green31\blue41;\red246\green246\blue239;
-\red72\green255\blue104;\red252\green93\blue186;}
-{\*\expandedcolortbl;;\cssrgb\c38431\c44706\c64314;\cssrgb\c15686\c16471\c21176;\cssrgb\c97255\c97255\c94902;
-\cssrgb\c31373\c98039\c48235;\cssrgb\c100000\c47451\c77647;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
-\deftab720
-\pard\pardeftab720\partightenfactor0
+/* styles.css */
 
-\f0\fs28\fsmilli14080 \cf2 \cb3 \expnd0\expndtw0\kerning0
-\shad\shadx0\shady-20\shadr0\shado0 \shadc0 \uc0\u8237 /* styles.css */\cf4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \uc0\u8236 \
-\
-\cf2 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 /* Style the select box */\cf4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
-\cf5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 .selectbox\cf4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \{\
-    \cf6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 background-color\cf4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 : #f8f9fa;\
-    \cf6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 border-color\cf4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 : #ced4da;\
-\}\
-\
-\cf2 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 /* Style the download button */\cf4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
-\cf5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 .download-button\cf4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \{\
-    \cf6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 background-color\cf4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 : #007bff;\
-    \cf6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 border-color\cf4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 : #007bff;\
-    \cf6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 color\cf4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 : white;\
-\}\
-\
-\cf2 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 /* Add more styles as needed */}
+/* Style the select box */
+.selectbox {
+    background-color: #f8f9fa;
+    border-color: #ced4da;
+}
+
+/* Style the download button */
+.download-button {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: white;
+}
+
+/* Add more styles as needed */
